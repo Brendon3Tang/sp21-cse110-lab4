@@ -1,11 +1,11 @@
-- 1a
+## Part 1a
   - 1. It prints 20.
   - 2. It prints 20.
   - 3. It prints 20.
   - 4. It returns an error because result is not defined outside of the block of if-statement.
   - 5. It returns an error because result is a const value, and it can not be reassigned.
   - 6. It returns an error because result is a const value, and it can not be reassigned.
-- 1b
+## Part 1b
   - 1. It prints 3 because the length of prices is 3, which means that the for loop will run 3 times and i will increase to 3.
   - 2. It prints 150 because the input of final return is 300, 300*(1-0.5)=150.
   - 3. It prints 150 because the final price will be the final return, which is the answer of question 2.
