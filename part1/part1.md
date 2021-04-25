@@ -1,0 +1,46 @@
+- 1a
+  - 1. It prints 20.
+  - 2. It prints 20.
+  - 3. It prints 20.
+  - 4. It returns an error because result is not defined outside of the block of if-statement.
+  - 5. It returns an error because result is a const value, and it can not be reassigned.
+  - 6. It returns an error because result is a const value, and it can not be reassigned.
+- 1b
+  - 1. It prints 3 because the length of prices is 3, which means that the for loop will run 3 times and i will increase to 3.
+  - 2. It prints 150 because the input of final return is 300, 300*(1-0.5)=150.
+  - 3. It prints 150 because the final price will be the final return, which is the answer of question 2.
+  - 4. It returns 50,100,150 since discounted is an array that includes three finalPrices of the input [100,200,300]. However, it doesn't print out to the screen unless we use command like "document.write(discounted)".
+  - 5. It returns an error because the "i" is not defined outside of the block of the for loop.
+  - 6. It returns an error because the "discountPrice" is not defined outside of the block of the for loop.
+  - 7. It returns 150 because the "finalPrice" is defined in the function block, which means it can be used everywhere in this function. 
+  - 8. It returns 50,100,150. This is the correct answer because the code is still right even though we use 'let' instead of 'var'. We just can't not make some of the console.log run.
+  - 9. It returns an error because the "i" is not defined outside of the block of the for loop.
+  - 10. It returns 3 since the length is constantly equal to the length of prices. Here, the length of prices is 3.
+  - 11. It returns 50,100,150. Array 'discounted' will store one 'discoutedPrice' each time in the for loop. And the loop runs three times in this case.
+  - 12. We create a variable 'x' to access these data.
+    - A. x = student.name;
+    - B. x = student['Grad Year']; 
+    - C. student.greeting();
+    - D. x = student['Favorite Teacher'].name;
+    - E. x = student.courseLoad[0];
+  - 13. 
+    - A.'3' + 2 = '32'. Integer 2 is converted to string '2'.
+    - B.'3' - 2 = 1. String '3' is converted to intrger 3.
+    - C. 3 + null = 3. "null" is converted to integer 0.
+    - D. '3' + null = '3null'. null is converted to string 'null'.
+    - E. true + 3 = 4. Boolean "true" is converted to integer 1.
+    - F. false + null = 0. "false" is converted to integer 0 and null is converted to integer 0.
+    - G. '3' + undefined = '3undefined'. "undefined" is converted to string 'undefined'
+    - H. '3' - undefined = NaN. "undefined" is converted to number 'NaN', and string '3' is converted to number 3.
+  - 14. 
+    - '2' > 1: true. String '2' is converted to number 2, 2>1.
+    - '2' < '12': false. These are two strings. And '1' is alphabetically greater than '2'. So '2' < '12'.
+    - 2 == ‘2’: true. String '2' is converted to number 2, 2=2.
+    - 2 === ‘2’: false. The type of 2 and '2' is different, so they are not equal value and equal type at the same time.
+    - true == 2: false. Boolean 'true' is converted to '1', 1 does not equal 2.
+    - true === Boolean(2): The result of Boolean(2) is true since it has a value of 2. "true" is the same data typo of Boolean(), so, they are equal value and equal type at the same time.
+  - 15. When comparing two data with "==" and "===", "==" means they are equal values. "===" means they are equal values and equal type at the same time.
+  - 16. See the js file.
+  - 17. The result will be 2,4,6. The function "modifyArray" will take array[1,2,3] and another function "dosomething" as inputs. It creates a new array called "newArr", and then start a loop. Each time in the loop, we will first use  "dosomething" to double the number in the array of the current index, and then push the doubled number into the new array "newArr". When we finish looping, which is three times, we return the new array "newArr".
+  - 18. See the js file.
+  - 19. The output of the code is 1,4,3,2. It prints 1 and 4 immediately. Then after 0 second (not really 0, but almost), it prints 3. Lastly, it prints 2 after 1 second of the execution.
